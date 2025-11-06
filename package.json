@@ -1,0 +1,22 @@
+{
+  "name": "qr-labels-generator",
+  "version": "1.0.0",
+  "description": "Generate sequential QR code labels on PDF using Herma 4386 template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "qr-code",
+    "pdf",
+    "labels",
+    "herma"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdfkit": "^0.15.0",
+    "qrcode": "^1.5.3"
+  }
+}
